@@ -1,0 +1,11 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Aspects" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" "${PODS_ROOT}/Headers/Public/KVOController" "${PODS_ROOT}/Headers/Public/MLeaksFinder" "${PODS_ROOT}/Headers/Public/MZPublibs" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/YYAsyncLayer" "${PODS_ROOT}/Headers/Public/YYCache" "${PODS_ROOT}/Headers/Public/YYImage" "${PODS_ROOT}/Headers/Public/YYModel" "${PODS_ROOT}/Headers/Public/YYText" "${PODS_ROOT}/Headers/Public/YYWebImage"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Aspects" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/FBRetainCycleDetector" "${PODS_CONFIGURATION_BUILD_DIR}/KVOController" "${PODS_CONFIGURATION_BUILD_DIR}/MLeaksFinder" "${PODS_CONFIGURATION_BUILD_DIR}/MZPublibs" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYAsyncLayer" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/YYText" "${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Aspects" -l"CTMediator" -l"FBRetainCycleDetector" -l"KVOController" -l"MLeaksFinder" -l"MZPublibs" -l"SDWebImage" -l"YYAsyncLayer" -l"YYCache" -l"YYImage" -l"YYModel" -l"YYText" -l"YYWebImage" -l"c++" -l"sqlite3" -l"z" -framework "Accelerate" -framework "AssetsLibrary" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - CTMediator (46)
+  - FBRetainCycleDetector (0.1.4)
+  - KVOController (1.2.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - MZPublibs (1.0.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - YYAsyncLayer (1.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - Aspects
+  - CTMediator
+  - KVOController
+  - MLeaksFinder
+  - MZPublibs (from `./Frameworks/MZPublibs`)
+  - SDWebImage
+  - YYAsyncLayer
+  - YYModel
+  - YYText
+  - YYWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Aspects
+    - CTMediator
+    - FBRetainCycleDetector
+    - KVOController
+    - MLeaksFinder
+    - SDWebImage
+    - YYAsyncLayer
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYText
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  MZPublibs:
+    :path: "./Frameworks/MZPublibs"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  MZPublibs: 273889cfa4188909be09677cf6b3f36aef866a95
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: cdd800a16b2092a72b89b9e285eb49ca89581ff5
+
+COCOAPODS: 1.10.2

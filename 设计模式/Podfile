@@ -1,0 +1,25 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+def internal_pods
+  pod 'MZPublibs', :path => './Frameworks/MZPublibs', :inhibit_warnings => false
+end
+
+target "设计模式" do 
+ 
+pod 'Aspects'
+pod 'MLeaksFinder'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'CTMediator'
+pod 'KVOController'
+pod 'ZFPlayer', '~> 4.0'
+pod 'MGJRouter', '~>0.9.0'
+pod 'YYWebImage'
+pod 'YYModel'
+pod 'YYText'
+pod 'YYAsyncLayer'
+internal_pods
+
+end
