@@ -1,6 +1,0 @@
-framework module Pods_MZDesignPattern {
-  umbrella header "Pods-MZDesignPattern-umbrella.h"
-
-  export *
-  module * { export * }
-}
